@@ -1,3 +1,4 @@
+#//
 @extends('layout')
 
 @section('content')
@@ -74,7 +75,7 @@
                 @endforeach
             </select>
                                 </div>
-                                        
+
 
 
                         </div>
@@ -90,7 +91,7 @@
             </select>
                                 </div>
 
-                        
+
                                 <script>
                                 $(document).ready(function() {
                                             $('.select2-multiple').select2({
@@ -99,7 +100,7 @@
                                             });
 
                                         });
-                                       
+
     $(document).ready(function () {
         $('#country').change(function () {
             var countryId = $(this).val();
@@ -129,7 +130,7 @@
     });
 </script>
                                 </script>
-                                
+
                                 <div class="form-group">
                                     <label for="city">{{ __('messages.city') }}:</label>
                                     <input type="text" id="city" class="form-control" name="city" required>
