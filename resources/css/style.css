@@ -1,0 +1,40 @@
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+body{
+	background-color: #eee;
+}
+
+.loginn{
+
+	 height: 88vh;
+
+}
+.well{
+	background-color: #fff !important;
+}
+.logo{
+	width: 75px;
+	margin-top: -3px;
+}
+
+.footer {
+    padding: 20px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+
+}
+

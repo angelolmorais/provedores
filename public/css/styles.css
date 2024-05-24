@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+body {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+}
+html, body {
+height: 100%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content {
+flex: 1;
+}
+.main-content h4{
+    color:#565550
+    }
+.navbar-laravel {
+    background-color: #014380;
+    border-color: #014380;
+}
+.nav-link {
+    color: #f5f8fa !important;
+}
+.navbar-brand, .nav-link, .my-form, .login-form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-form {
+    padding: 1.5rem 0;
+}
+.my-form .row {
+    margin: 0;
+}
+.login-form {
+    padding: 1.5rem 0;
+}
+.login-form .row {
+    margin: 0;
+}
+.logo {
+    width: 75px;
+    margin-top: -3px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination li {
+    list-style: none;
+    margin: 0 5px;
+}
+.pagination a,
+.pagination span {
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    color: #333;
+}
+.pagination .active a,
+.pagination .active span {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+.pagination .disabled a,
+.pagination .disabled span {
+    color: #777;
+    pointer-events: none;
+    cursor: default;
+}
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f5f8fa;
+    text-align: center;
+}
+
+.changeLang {
+    color: white;
+    background-color: #014380;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24'%3E%3Cpath fill='%23ffffff' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px 10px;
+}
+
+.changeLang option {
+    color: black;
+    background-color: transparent; /* Define o fundo das opções como transparente */
+}
+
+.changeLang:hover {
+    background-color: #014380; /* Mantém a cor de fundo ao passar o mouse */
+}
+
+.changeLang:focus {
+    outline: none; /* Remove a borda padrão ao focar */
+}
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: ;
+    border-color:;
+    color: white;
+}
+
+.select2-container--default .select2-results__option--highlighted {
+    background-color:;
+    color: white;
+}
+
+.select2-container--default .select2-selection--multiple:focus {
+    border-color:;
+    outline: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #014380;
+    color: white;
+}
+
+.info-number .badge {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 10px;
+    padding: 3px 2px;
+    position: absolute;
+    right: 9px;
+    top: 3px;
+}
+.bg-green {
+    background: #FFFF00 !important;
+    border: 1px solid #FFFF00 !important;
+    color: #014380;
+}
+
+
+.table {
+    border: 1px solid transparent;
+    margin: 20px 0px 20px 0px;
+    font-size: 12px
+}
+
+.table td,.table th {
+    border: 1px solid transparent;
+    padding: 8px
+}
+
+.table thead {
+    background-color: #565550;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    vertical-align: middle
+}
+
+.table>thead>tr>th {
+    vertical-align: middle !important
+}
+.table tbody {
+    background-color:transparent;
+    color: #565550;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+}
+
+.table>tbody>tr {
+    border-bottom: 1px solid #565550 !important
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle !important;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #565550 !important
+}
+
+.table td.description {
+    text-align: left
+}
