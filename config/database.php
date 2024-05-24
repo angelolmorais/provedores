@@ -66,7 +66,7 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', '172.22.1.11'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'sigoei_prod'),
             'username' => env('DB_USERNAME', 'postgres'),
